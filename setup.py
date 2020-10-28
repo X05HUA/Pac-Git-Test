@@ -8,7 +8,7 @@ with io.open(VERSION_PATH, 'r', encoding='utf-8') as f:
   version = f.read().strip()"""
 
 setup(
-    name = "mp4_to_mp3",        # what you want to call the archive/egg
+    name = "convertvideo",        # what you want to call the archive/egg
     # packages=["mp4_to_mp3"],    # top-level python modules you can import like
                                 #   'import foo'
     # dependency_links = [],      # custom links to a specific project
