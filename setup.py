@@ -21,11 +21,5 @@ setup(
     description = "This is a Test",
     license = "Apache 2.0",
     keywords= "test testing test123",
-    url = "http://github.com/X05HUA/Pac-Git-Tests",
-    entry_points = {
-        "console_scripts": [        # command-line executables to expose
-            "helloworld_in_python = helloworld.main:main",
-        ],
-        "gui_scripts": []       # GUI executables (creates pyw on Windows)
-    }
+    url = "http://github.com/X05HUA/Pac-Git-Tests"
 )
